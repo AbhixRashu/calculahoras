@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   creator: 'CalculaHoras',
   metadataBase: new URL('https://calculahoras.online'),
   alternates: {
-    canonical: 'https://calculahoras.online/',
+    canonical: 'https://calculahoras.online',
   },
   openGraph: {
     title: 'Calculadora de Horas Online | Horas Trabalhadas e Extras',

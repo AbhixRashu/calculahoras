@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Sobre o CalculaHoras',
   description:
     'Conheça o CalculaHoras, uma calculadora de horas online gratuita criada para ajudar trabalhadores brasileiros a controlar suas jornadas de trabalho.',
-  alternates: { canonical: '/sobre' },
+  alternates: { canonical: 'https://calculahoras.online/sobre' },
   openGraph: {
     title: 'Sobre o CalculaHoras',
     description: 'Conheça a ferramenta que ajuda milhares de trabalhadores brasileiros.',

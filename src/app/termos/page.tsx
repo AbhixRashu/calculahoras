@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Termos de Uso',
   description:
     'Leia os termos de uso do CalculaHoras. Condições gerais de uso da calculadora de horas online.',
-  alternates: { canonical: '/termos' },
+  alternates: { canonical: 'https://calculahoras.online/termos' },
   openGraph: {
     title: 'Termos de Uso | CalculaHoras',
     description: 'Condições gerais de uso da calculadora de horas online.',

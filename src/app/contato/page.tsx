@@ -1,8 +1,8 @@
 'use client';
 
-import type { Metadata } from 'next';
 import { useState } from 'react';
 import { ScrollReveal } from '@/components/animations/ScrollReveal';
+
 
 export default function ContatoPage() {
   const [submitted, setSubmitted] = useState(false);

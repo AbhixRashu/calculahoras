@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Política de Privacidade',
   description:
     'Saiba como o CalculaHoras protege seus dados. Política de privacidade completa e transparente.',
-  alternates: { canonical: '/privacidade' },
+  alternates: { canonical: 'https://calculahoras.online/privacidade' },
   openGraph: {
     title: 'Política de Privacidade | CalculaHoras',
     description: 'Saiba como o CalculaHoras protege seus dados.',
