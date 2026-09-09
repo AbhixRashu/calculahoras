@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   },
   description:
     'Calcule horas trabalhadas, horas extras, intervalos e hora de saída gratuitamente. Calculadora de horas online rápida, simples e precisa.',
+  icons: {
+    icon: '/favicon.svg',
+  },
   keywords: [
     'calculadora de horas',
     'calculadora de horas trabalhadas',
