@@ -114,10 +114,55 @@ const tools = [
   {
     title: 'Turno Noturno e Adicional',
     description: 'Calcule horas com redução ficta noturna da CLT (52min30s) e adicional noturno de 20% para jornadas das 22h às 05h.',
-    href: '/calculadora-de-turno-noturno',
+    href: '/turno-noturno',
+    badge: 'Art. 73 CLT',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Calculadora de Hora de Saída',
+    description: 'Descubra a que horas você deve bater o ponto de saída somando entrada, carga horária e almoço.',
+    href: '/hora-de-saida',
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+        <polyline points="16 17 21 12 16 7" />
+        <line x1="21" y1="12" x2="9" y2="12" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Horas Decimais (Centesimais)',
+    description: 'Converta horas e minutos (hh:mm) em formato decimal para cálculo de salário na folha (7h30 = 7,50h).',
+    href: '/horas-decimais',
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+        <rect x="4" y="2" width="16" height="20" rx="2" />
+        <line x1="8" y1="6" x2="16" y2="6" />
+        <line x1="16" y1="14" x2="16" y2="18" />
+        <path d="M16 10h.01" />
+        <path d="M12 10h.01" />
+        <path d="M8 10h.01" />
+        <path d="M12 14h.01" />
+        <path d="M8 14h.01" />
+        <path d="M12 18h.01" />
+        <path d="M8 18h.01" />
+      </svg>
+    ),
+  },
+  {
+    title: 'Conversor de Horas e Minutos',
+    description: 'Transforme horas em minutos, minutos em horas ou segundos com precisão instantânea.',
+    href: '/conversor-de-horas',
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+        <polyline points="17 1 21 5 17 9" />
+        <path d="M3 11V9a4 4 0 0 1 4-4h14" />
+        <polyline points="7 23 3 19 7 15" />
+        <path d="M21 13v2a4 4 0 0 1-4 4H3" />
       </svg>
     ),
   },

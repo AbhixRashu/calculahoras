@@ -4,10 +4,10 @@ import { ScrollReveal } from '@/components/animations/ScrollReveal';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Turno Noturno Online',
-  description: 'Calcule horas de turno noturno com adicional de 20% conforme a CLT. Turnos que passam da meia-noite.',
-  alternates: { canonical: '/calculadora-de-turno-noturno' },
-  openGraph: { title: 'Calculadora de Turno Noturno | CalculaHoras', description: 'Calcule horas de turno noturno com adicional de 20%.', url: 'https://calculahoras.online/calculadora-de-turno-noturno' },
+  title: 'Calculadora de Turno Noturno Online | CalculaHoras',
+  description: 'Calcule horas de turno noturno com adicional de 20% conforme a CLT.',
+  alternates: { canonical: 'https://calculahoras.online/turno-noturno' },
+  robots: { index: false, follow: true },
 };
 
 export default function TurnoNoturnoPage() {

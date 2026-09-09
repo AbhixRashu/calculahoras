@@ -1,5 +1,5 @@
 interface StructuredDataProps {
-  type: 'website' | 'webapp' | 'breadcrumb';
+  type: 'website' | 'webapp' | 'breadcrumb' | 'article';
   data?: Record<string, unknown>;
 }
 
@@ -32,6 +32,18 @@ export function StructuredData({ type, data }: StructuredDataProps) {
         price: '0',
         priceCurrency: 'BRL',
       },
+      ...data,
+    };
+  } else if (type === 'article') {
+    jsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      publisher: {
+        '@type': 'Organization',
+        name: 'CalculaHoras',
+        url: 'https://calculahoras.online',
+      },
+      inLanguage: 'pt-BR',
       ...data,
     };
   } else {

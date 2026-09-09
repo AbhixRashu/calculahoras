@@ -6,11 +6,11 @@ import { SpotlightCard } from '@/components/animations/SpotlightCard';
 
 const stats = [
   {
-    value: 7, suffix: '+', label: 'Ferramentas', description: 'calculadoras disponíveis',
+    value: 10, suffix: '+', label: 'Ferramentas', description: 'calculadoras disponíveis',
     icon: '🛠️', color: 'text-brand-600', bg: 'bg-brand-50',
   },
   {
-    value: 100, suffix: '%', label: 'Gratuito', description: 'sem custos ou anúncios',
+    value: 100, suffix: '%', label: 'Gratuito', description: 'sem custos ou assinaturas',
     icon: '✅', color: 'text-emerald-600', bg: 'bg-emerald-50',
   },
   {

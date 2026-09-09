@@ -92,33 +92,25 @@ export function HeroSection() {
         {/* Layout 2 Colunas no Desktop */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
           {/* Coluna Esquerda: Conteúdo, Título SEO e Diferenciais */}
-          <div
-            className="lg:col-span-5 space-y-6 pt-2"
-            style={{
-              opacity: mounted ? 1 : 0,
-              transform: mounted ? 'translateY(0)' : 'translateY(20px)',
-              transition: 'all 0.6s cubic-bezier(0.16, 1, 0.3, 1)',
-            }}
-          >
+          <div className="lg:col-span-5 space-y-6 pt-2">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-100/90 text-brand-800 text-xs font-bold uppercase tracking-wider shadow-xs border border-brand-200/60 hover:bg-brand-100 transition-colors">
               <span className="w-2 h-2 rounded-full bg-brand-500 animate-pulse" />
               <Sparkles className="w-3.5 h-3.5 text-brand-600" />
               Calculadora de Horas CLT • 100% Gratuita
             </div>
 
-            <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold text-ink-900 tracking-tight leading-[1.14]">
-              Calculadora de{' '}
-              <span className="text-gradient">
+            <h1 className="text-3xl sm:text-4xl lg:text-[2.85rem] font-extrabold text-ink-900 tracking-tight leading-[1.14]">
+              Calculadora de Horas
+              <span className="block text-gradient text-2xl sm:text-3xl lg:text-[2.1rem] mt-1.5 font-bold">
                 <FlipWords words={flipWordsList} duration={3200} />
               </span>
-              <span className="block mt-1">online e precisa</span>
             </h1>
 
             <p className="text-base sm:text-lg text-ink-600 leading-relaxed">
-              Informe sua hora de entrada, saída e intervalo de almoço em{' '}
-              <strong className="text-ink-900">horas e minutos</strong>. Obtenha o
-              total exato, horas extras a 50% e 100% e espelho de ponto pronto para
-              exportar em PDF conforme a CLT.
+              <strong>Calculadora de horas online</strong> rápida e gratuita para calcular suas{' '}
+              <strong className="text-ink-900">horas trabalhadas</strong>, apurar{' '}
+              <strong className="text-ink-900">horas extras</strong> (50% e 100%) e planejar sua{' '}
+              <strong className="text-ink-900">hora de saída</strong> com intervalo de almoço em horas e minutos.
             </p>
 
             {/* Destaques de Funcionalidades */}
@@ -203,14 +195,7 @@ export function HeroSection() {
           </div>
 
           {/* Coluna Direita: Suíte com Abas (Diária, Semanal, Mensal, Anual) */}
-          <div
-            className="lg:col-span-7"
-            style={{
-              opacity: mounted ? 1 : 0,
-              transform: mounted ? 'translateY(0)' : 'translateY(25px)',
-              transition: 'all 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.15s',
-            }}
-          >
+          <div className="lg:col-span-7">
             <div className="relative group">
               <div className="absolute -inset-1.5 bg-gradient-to-r from-brand-400/25 via-emerald-300/20 to-teal-400/25 rounded-3xl blur-xl pointer-events-none opacity-80 group-hover:opacity-100 transition-opacity duration-700" />
               <div className="relative rounded-2xl overflow-hidden bg-white/95 backdrop-blur-xl border border-surface-200/90 shadow-xl shadow-brand-900/5">

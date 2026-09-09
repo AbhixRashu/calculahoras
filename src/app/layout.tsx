@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: '%s | CalculaHoras',
   },
   description:
-    'Calcule horas trabalhadas, horas extras, intervalos e hora de saída gratuitamente. Calculadora de horas online rápida, simples e precisa.',
+    'Calcule horas trabalhadas, horas extras, intervalos e sua hora de saída gratuitamente. Calculadora de horas online rápida, simples e precisa.',
   icons: {
     icon: '/favicon.svg',
   },
@@ -38,12 +38,12 @@ export const metadata: Metadata = {
   creator: 'CalculaHoras',
   metadataBase: new URL('https://calculahoras.online'),
   alternates: {
-    canonical: '/',
+    canonical: 'https://calculahoras.online/',
   },
   openGraph: {
-    title: 'Calculadora de Horas Online | CalculaHoras',
+    title: 'Calculadora de Horas Online | Horas Trabalhadas e Extras',
     description:
-      'Calcule horas trabalhadas, horas extras e sua hora de saída gratuitamente.',
+      'Calcule horas trabalhadas, horas extras, intervalos e sua hora de saída gratuitamente. Calculadora de horas online rápida, simples e precisa.',
     url: 'https://calculahoras.online',
     siteName: 'CalculaHoras',
     locale: 'pt_BR',
@@ -51,9 +51,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Calculadora de Horas Online | CalculaHoras',
+    title: 'Calculadora de Horas Online | Horas Trabalhadas e Extras',
     description:
-      'Calcule horas trabalhadas, horas extras e sua hora de saída gratuitamente.',
+      'Calcule horas trabalhadas, horas extras, intervalos e sua hora de saída gratuitamente. Calculadora de horas online rápida, simples e precisa.',
   },
   robots: {
     index: true,

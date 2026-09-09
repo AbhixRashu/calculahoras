@@ -6,17 +6,15 @@ import { StructuredData } from '@/components/seo/StructuredData';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Horas Online | Horas Trabalhadas e Extras',
+  title: 'Calculadora de Horas Online | CalculaHoras',
   description:
-    'Calcule horas trabalhadas, horas extras, intervalos e hora de saída gratuitamente. Calculadora de horas online rápida, simples e precisa.',
+    'Calcule horas trabalhadas, horas extras, intervalos e hora de saída gratuitamente.',
   alternates: {
-    canonical: '/calculadora-de-horas',
+    canonical: 'https://calculahoras.online/',
   },
-  openGraph: {
-    title: 'Calculadora de Horas Online | CalculaHoras',
-    description:
-      'Calcule horas trabalhadas, horas extras, intervalos e hora de saída gratuitamente.',
-    url: 'https://calculahoras.online/calculadora-de-horas',
+  robots: {
+    index: false,
+    follow: true,
   },
 };
 

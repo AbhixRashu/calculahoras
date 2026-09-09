@@ -16,7 +16,7 @@ const mainNavLinks = [
     children: [
       { href: '/calculadora-de-intervalo', label: 'Intervalo e Almoço' },
       { href: '/calculadora-de-horas-anuais', label: 'Horas Anuais' },
-      { href: '/calculadora-de-turno-noturno', label: 'Turno Noturno CLT' },
+      { href: '/turno-noturno', label: 'Turno Noturno CLT' },
       { href: '/hora-de-saida', label: 'Hora de Saída' },
       { href: '/horas-decimais', label: 'Horas Decimais' },
       { href: '/conversor-de-horas', label: 'Conversor de Horas' },
