@@ -7,11 +7,6 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/calculadora-de-horas',
-        destination: '/',
-        permanent: true,
-      },
-      {
         source: '/calculadora-de-turno-noturno',
         destination: '/turno-noturno',
         permanent: true,

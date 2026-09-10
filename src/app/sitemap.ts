@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/horas-decimais', priority: 0.8, freq: 'weekly' as const },
     { path: '/turno-noturno', priority: 0.8, freq: 'weekly' as const },
     { path: '/calculadora-de-intervalo', priority: 0.8, freq: 'weekly' as const },
+    { path: '/calculadora-de-horas', priority: 0.9, freq: 'daily' as const },
 
     // Secondary calculators
     { path: '/conversor-de-horas', priority: 0.7, freq: 'weekly' as const },

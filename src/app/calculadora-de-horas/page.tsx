@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   description:
     'Calcule horas trabalhadas, horas extras, intervalos e hora de saída gratuitamente.',
   alternates: {
-    canonical: 'https://calculahoras.online/',
+    canonical: 'https://calculahoras.online/calculadora-de-horas',
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
 };
